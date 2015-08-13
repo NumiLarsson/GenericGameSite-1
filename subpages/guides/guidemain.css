@@ -1,0 +1,43 @@
+.guideList a {
+	text-decoration: none;
+}
+.guideWindow ul {
+	list-style-type: none;
+}
+.guide {
+	border: 5px ridge #84000b;
+	height: 250px;
+	text-align: left;
+	width: 95%;
+	margin:0 0 15px 0;
+	text-decoration: none;
+}
+
+.guide p {
+	position: relative;
+	top: 103px;
+	left: 60px;
+}
+
+.guide img {
+	position: relative;
+	float: left;
+	left: 25px;
+	top: 20px;
+}
+
+.guide2 img {
+	position: relative;
+	top: 70px !important;
+}
+
+.guide3 p {
+	position: relative;
+	top: 92px;
+}
+
+.guide3 img {
+	position: relative;
+	top: 10px;
+	left: 25px;
+}

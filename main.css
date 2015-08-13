@@ -1,0 +1,184 @@
+/* http://struckdumb.deviantart.com/art/Double-Grunge-Border-155468443 listed as free. */
+/* http://www.hdwallback.com/cool-red-backgrounds/ No contact information nor copyright info*/
+/* Picture menu:
+	http://2p.com/2214570_1/World-of-Warcraft-Warlock-God-DrakeDog-Turned-to-Play-Dota-2-by-Cathy.htm
+		Drakedog.
+	http://manaflask.com/en/articles/ensidia-heroic-progress-13-13-nef-video
+		Raid group (Ensidia Nef kill)
+	http://www.hell-and-back.com/index.html.last
+		thunderaan */
+
+/* The red background is used to make the reader more alert and to inspire a feeling of danger, as 
+	the game is mainly based around adrenaline and skinners box reward systems, which is something 
+	that is of weight to share with the reader.
+	
+	I tried to find images matching the color scheme, but there's only so many hours in a day and 
+	they ran out.
+	
+	As listed in the infobox on the left of the site, this site is not intended to be made public,
+	it's made purely for a university course in Web Design.
+	
+	Author: Anton Larsson
+	Date: 2015-07-26
+	
+*/	
+		
+body {
+	background-color: Black;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 100%;
+	
+	text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+	/* Add outline to make all text readable at all times*/
+}
+
+a:visited {
+	color: Black;
+}
+
+a {
+	color: Black;
+}
+
+.background {
+	background: #84000b url("images/cool-red-backgrounds1920x1400.png") no-repeat bottom;
+	width: 1200px;
+	position: center;
+	margin: auto;
+	border-image: url("images/agedmetalborder.png") 5% 5% 5% 5% stretch;
+	border-width: 10px;
+}
+.header{
+	display: inline-block;
+	position: relative;
+	width: 100%;
+	border-image: url("images/agedmetalborder.png") 0 0 5% 0 stretch;
+	border-bottom: 10px;
+	left: -3px;
+	background: url("images/cool-red-backgrounds.png") no-repeat center;
+}	
+.logo {
+	width: 300px;
+	float: left;
+	padding-right: 2%;
+}
+.navmenu {
+	width: 70%;
+	float: right;
+}
+
+.navMenu li {
+	position: relative;
+	top: 10px;
+	left: 20px;
+	padding: 0 10px 0 10px;
+	display: inline-block;
+	width: 20%;
+	padding: 0 1% 0 1%;
+	margin: auto;
+	height: 75px;
+	text-align: center;
+	background: url("images/buttons300x75.png") no-repeat center;
+}
+.removeDec {
+	text-decoration: none;
+}
+
+.curr  {
+	color: #CC3300 !important;
+}
+
+.navMenu li a {
+	height: 75px;
+	line-height: 70px;
+	font-size: 2em;
+	margin: auto;
+	vertical-align: middle;
+	color: Black;
+	display: inline-block;
+}
+
+.content {
+	text-align: center;
+	width: 98%;
+	height: auto;
+	padding: 1%;
+	display: inline-block;
+	margin: auto;
+}
+.sidebar {
+	position: relative;
+	left: -3px;
+	top: -2px;
+	width: 22%;
+	background-color: #d0cfca;
+	height: auto;
+	float: left;
+	border-image: url("images/borderTry.png") 5% stretch;
+	padding: 0 1% 0 1%;
+	font-size: 120%;
+}
+
+.infoBox {
+	text-align: center;
+	width: auto;
+	padding: 10px;
+}
+
+.infobox h2 {
+	font-size: 200%;
+	text-shadow: -1px 0 #CC3300, 0 1px #CC3300, 1px 0 #CC3300, 0 -1px #CC3300;
+}
+
+.infobox p {
+	font-size: 100%;
+	width: auto;
+}
+
+.socMedia {
+	margin: 5px 0 5px 5px;
+	background: url("images/buttons300x75.png") no-repeat center;
+	border-image: url("images/borderTry.png") 5% 5% 5% 5% stretch;
+	width: auto;
+	height: 75px;
+	text-align: left;
+}
+
+.socMedia li {
+	display: inline-block;
+	text-align: left;
+	position: relative;
+	left: -15px;
+	top: -6px;
+}
+
+.mainWindow {
+	background-color: #d0cfca;
+	float: right;
+	border-image: url("images/borderTry.png") 5% 5% 5% 5% stretch;
+	border-width: 15px;
+	width: 72%;
+	height: auto;
+	margin: auto;
+	position: relative;
+	top: -2px;
+	font-size: 120%;
+}
+
+.mainWindow h1 {
+	font-size: 3em;
+	text-shadow: -1px 0 #CC3300, 0 1px #CC3300, 1px 0 #CC3300, 0 -1px #CC3300;
+}
+
+.mainWindow h2 {
+	font-size: 200%;
+	text-shadow: -1px 0 #CC3300, 0 1px #CC3300, 1px 0 #CC3300, 0 -1px #CC3300;
+}
+
+.mainWindow h3 {
+	text-shadow: -1px 0 #CC3300, 0 1px #CC3300, 1px 0 #CC3300, 0 -1px #CC3300;
+}
+
+.mainWindow h4 {
+	text-shadow: -1px 0 #CC3300, 0 1px #CC3300, 1px 0 #CC3300, 0 -1px #CC3300;
+}

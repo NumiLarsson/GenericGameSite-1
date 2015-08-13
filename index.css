@@ -1,0 +1,37 @@
+.commentList {
+	background: url("images/buttons800x100.png") no-repeat center;
+	position: relative;
+	text-align: left;
+	height: 100px;
+	list-style-type: none;
+}
+
+.commentList img {
+	float: left;
+	position: relative;
+	left: 100px;
+	top: 26px;
+	border: 2px ridge #CC3300;
+}
+
+.commentList p {
+	position: relative;
+	left: 110px;
+	top: 35px;
+}
+
+.commentBackground {
+	position: relative;
+	height: 200px;
+	background: url("images/buttons800x75.png") no-repeat center;
+	padding: 0 0 45px 0;
+}
+
+.writeComment {
+	position: relative;
+	top: 50px;
+}
+
+#Title {
+	margin: 10px;
+}
