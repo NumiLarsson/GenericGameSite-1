@@ -38,7 +38,7 @@
 						<h2>This is an example site!</h2>
 						<p>
 							The site is never intended to be made public, it's merely example work 
-							for a course at <a class="removeDec" href="http://www.uu.se/en/admissions/master/selma/kurser/?kKod=2IS202&lasar=14%2F15&typ=1" >
+							for a course at <a class="removeDec" href="http://www.uu.se/en/admissions/master/selma/kurser/?kKod=2IS202&amp;lasar=14%2F15&amp;typ=1" >
 							Uppsala University</a>
 							
 						</p>
@@ -86,40 +86,41 @@
 					
 						<h1>Guides</h1>
 						<ul class="guideList">
-							<a href="guidedetails/guide1.html">
-								<div class="guide guide1">
-									<li>
+							<!-- These links are not as I want them, but it's the only way
+											I'll get them validated properly before the deadline is
+											over, will definetly fix once I've figured out how to.-->
+									<li class="guide guide1">
 										<img src="../../images/HowToPlay-small.png" 
 											alt="Example buttons to press while playing"
 											width="200" height="180">
-										<p>Click here link to learn how to play the game!</p>
+										<a href="guidedetails/guide1.html">
+											<p>Click here link to learn how to play the game!</p>
+										</a>
 									</li>
-								</div>
-							</a>
 							
-							<a href="http://www.wikihow.com/Stop-Playing-World-of-Warcraft">
-								<div class="guide guide2">
-									<li>
+							
+									<li class="guide guide2">
 										<img src="../../images/Uninstall.png"
 												alt="How to stop playing"
 												width="200" height="75"/>
-										<p>Click here to learn how to stop playing the game!</p>
+										<a href="http://www.wikihow.com/Stop-Playing-World-of-Warcraft">
+											<p>Click here to learn how to stop playing the game!</p>
+										</a>
 									</li>
-								</div>
-							</a>
 							
-							<a href="http://www.systembolaget.se/">
-								<div class="guide guide3">
+							
+							
 
-									<li>
+									<li class="guide guide3">
 										<img src="../../images/meme.png" 
 												alt="How to survive without the game"
 												width="200" height="200"/>
-										<p>Click here link to learn how to survive after you've <br/>
+										<a href="http://www.systembolaget.se/">
+											<p>Click here link to learn how to survive after you've <br/>
 												stopped playing the game!</p>
+										</a>
 									</li>
-								</div>
-							</a>
+							
 						</ul>
 					</div>
 					

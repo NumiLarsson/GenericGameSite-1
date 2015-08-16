@@ -22,7 +22,24 @@
 	Date: 2015-07-26
 	
 */	
-		
+
+@media print {
+	/* This is only used if the user wishes to print the webpage, we remove a lot of the color heavy
+		parts to save some color in the printer as we like our costumers to spend money on us, not 
+			printer ink*/
+	body {
+		background-color: White;
+		font-size: 20px;
+		color: Black;
+	}
+	.background {
+		background: White;
+	}
+	.header {
+		background: White;
+	}
+}
+
 body {
 	background-color: Black;
 	font-family: Georgia, "Times New Roman", Times, serif;
