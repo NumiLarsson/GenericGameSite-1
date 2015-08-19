@@ -20,23 +20,54 @@
 	
 	Author: Anton Larsson
 	Date: 2015-07-26
-	
 */	
+
+@media all and (max-width: 480px) {
+	body {
+		zoom: 0.4 !important;
+	}
+}
+
+@media all and (min-width: 481px) and (max-width: 960px) {
+	body {
+		zoom: 0.6 !important;
+	}
+}
+
+@media all and (min-width: 961px) and (max-width: 1199px) {
+	body {
+		zoom: 0.8 !important;
+	}
+}
+
 
 @media print {
 	/* This is only used if the user wishes to print the webpage, we remove a lot of the color heavy
 		parts to save some color in the printer as we like our costumers to spend money on us, not 
 			printer ink*/
 	body {
-		background-color: White;
-		font-size: 20px;
-		color: Black;
+		background-color: White !important;
+		font-size: 20px! important;
+		color: Black !important;
+		zoom: 0.86 !important;
 	}
 	.background {
-		background: White;
+		background: White !important;
 	}
 	.header {
-		background: White;
+		background: White !important;
+	}
+	
+	img{
+		display: none !important;
+	}
+	
+	.pictureList li {
+		display: none !important;
+	}
+	
+	.person {
+		display: none !important;
 	}
 }
 
@@ -49,12 +80,18 @@ body {
 	/* Add outline to make all text readable at all times*/
 }
 
+
+a {
+	color: Black;
+}
+
 a:visited {
 	color: Black;
 }
 
-a {
-	color: Black;
+:focus {
+	Border: 2px Solid Orange;
+	Color: Orange!important;
 }
 
 .background {
