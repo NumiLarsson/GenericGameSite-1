@@ -49,12 +49,18 @@ body {
 	/* Add outline to make all text readable at all times*/
 }
 
+
+a {
+	color: Black;
+}
+
 a:visited {
 	color: Black;
 }
 
-a {
-	color: Black;
+:focus {
+	Border: 2px Solid Orange;
+	Color: Orange!important;
 }
 
 .background {
